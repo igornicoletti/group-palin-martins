@@ -7,7 +7,7 @@ const careerstVariants = tv({
   slots: {
     backgroundImage: '-z-10 absolute inset-0 w-full h-full object-cover opacity-25',
     contentWrapper: 'max-w-2xl mx-auto text-center mt-16',
-    cardContainer: 'max-w-lg lg:max-w-5xl mx-auto grid lg:grid-cols-1 gap-10 mt-24 mb-24 xl:mb-32',
+    cardContainer: 'max-w-full lg:max-w-5xl mx-auto grid lg:grid-cols-1 gap-10 mt-24 mb-24 xl:mb-32',
     card: 'group flex flex-col items-start gap-6 p-8 rounded-2xl shadow-2xl border border-zinc-100 shadow-zinc-100 hover:shadow-zinc-200 bg-white transition-shadow',
     cardIcon: 'text-3xl text-palin/50',
     subtitleWrapper: 'max-w-2xl mx-auto text-center mt-24',
@@ -36,14 +36,14 @@ export const Careers = () => {
 
 
       <div className={cV.cardContainer()}>
-        <div className="flex items-center justify-center space-x-8">
+        <div className="flex items-center justify-center space-x-6">
           {filters.map((filter) => (
             <button
               key={filter}
               onClick={() => setSelectedFilter(filter)}
-              className={`px-5 py-2.5 cursor-pointer rounded-full text-sm text-center ${selectedFilter === filter
-                ? "text-palin font-semibold uppercase"
-                : "text-muted-foreground  uppercase font-medium"}`}>
+              className={`px-5 py-2.5 cursor-pointer rounded-full text-base leading-tight text-muted-foreground font-medium ${selectedFilter === filter
+                ? "text-palin font-semibold"
+                : "text-muted-foreground"}`}>
               {filter}
             </button>
           ))}
@@ -54,10 +54,10 @@ export const Careers = () => {
             <h2 className="text-lg font-semibold">{category.category}</h2>
             <div className='divide-y divide-y-border'>
               {category.jobs.map((job) => (
-                <div key={job.title} className="flex justify-between items-center  pb-4 py-4">
-                  <div className='space-y-1'>
+                <div key={job.title} className="w-full flex flex-col md:flex-row justify-between gap-4 pb-4 py-4">
+                  <div className='space-y-1 max-w-xl'>
                     <h3 className="text-palin text-base font-medium">{job.title}</h3>
-                    <p className="text-muted-foreground ">{job.location}</p>
+                    <p className="text-muted-foreground">{job.location}</p>
                   </div>
                   <ButtonAction {...job.button} />
                 </div>

@@ -1,8 +1,8 @@
 export const careersTitleData = {
   id: 'careers',
-  title: 'Junte-se à nossa equipe',
-  subtitle: 'Carreiras na PALIN&MARTINS',
-  description: 'O Grupo Palin & Martins valoriza a diversidade e a inclusão. Somos um empregador de igualdade de oportunidades e consideramos todos os candidatos qualificados, independentemente de raça, cor, nacionalidade, gênero, identidade de gênero, orientação sexual, religião, deficiência ou idade.'
+  title: 'Posições abertas',
+  subtitle: 'Junte-se à nossa equipe',
+  description: 'O Grupo Palin&Martins valoriza a diversidade e a inclusão. Somos um empregador de igualdade de oportunidades e consideramos todos os candidatos qualificados, independentemente de raça, cor, nacionalidade, gênero, identidade de gênero, orientação sexual, religião, deficiência ou idade.'
 }
 
 export const careersPositionsData = [
@@ -10,7 +10,7 @@ export const careersPositionsData = [
     category: "Tecnologia",
     jobs: [
       {
-        title: "Anywhere",
+        title: "Representante Desenvolvimento Negócios",
         location: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         button: {
           href: '#',
@@ -19,7 +19,16 @@ export const careersPositionsData = [
         },
       },
       {
-        title: "Anywhere",
+        title: "Geração de Demanda Digital",
+        location: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        button: {
+          href: '#',
+          action: 'Candidatar-se',
+          colorVariant: 'secondary' as const,
+        },
+      },
+      {
+        title: "Engenheiro de Sucesso do Desenvolvedor",
         location: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         button: {
           href: '#',
@@ -35,6 +44,24 @@ export const careersPositionsData = [
     jobs: [
       {
         title: "No lugar da Raissa ;D",
+        location: "Lorem...",
+        button: {
+          href: '#',
+          action: 'Candidatar-se',
+          colorVariant: 'secondary' as const,
+        },
+      },
+      {
+        title: "Ota para o lugar da Raissa ;D",
+        location: "Lorem...",
+        button: {
+          href: '#',
+          action: 'Candidatar-se',
+          colorVariant: 'secondary' as const,
+        },
+      },
+      {
+        title: "Mais ota para ocupar o lugar da Raissa ;D",
         location: "Lorem...",
         button: {
           href: '#',

@@ -4,7 +4,6 @@ import { contactCardData, contactInfoData, contactSubitleData, contactTitleData 
 
 const contactVariants = tv({
   slots: {
-    backgroundImage: '-z-10 absolute inset-0 w-full h-full object-cover opacity-25',
     contentWrapper: 'max-w-2xl mx-auto text-center mt-16',
     cardContainer: 'max-w-lg lg:max-w-5xl mx-auto grid lg:grid-cols-2 gap-10 mt-24',
     card: 'group flex flex-col items-start gap-6 p-8 rounded-2xl shadow-2xl border border-zinc-100 shadow-zinc-100 hover:shadow-zinc-200 bg-white transition-shadow',
@@ -12,7 +11,7 @@ const contactVariants = tv({
     subtitleWrapper: 'max-w-2xl mx-auto text-center mt-24',
     infoContainer: 'max-w-lg lg:max-w-7xl mx-auto grid lg:grid-cols-3 gap-8 mt-12 mb-24 xl:mb-32 text-center',
     infoCard: 'flex flex-col items-center gap-4 p-6 rounded-xl shadow-xl border border-zinc-100 shadow-zinc-50 bg-white',
-    infoTitle: 'text-lg leading-tight text-muted-foreground font-medium',
+    infoTitle: 'leading-tight text-muted-foreground font-medium',
   }
 })
 
@@ -21,7 +20,6 @@ export const Contact = () => {
 
   return (
     <SectionWrapper id={'contact'}>
-      <img src='/images/contact-bg.png' className={cV.backgroundImage()} />
       {/* contactTitleData */}
       <div className={cV.contentWrapper()}>
         <SectionHeading {...contactTitleData} />

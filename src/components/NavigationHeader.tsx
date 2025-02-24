@@ -12,23 +12,27 @@ import {
 import { cn } from "@/lib/utils"
 
 const components = [
-  // Menu Institucional
   {
     section: "Institucional",
     items: [
       {
         title: "Sobre nós",
-        href: "/sobre-nos",
+        href: "/",
         description: "Conheça mais sobre nossa história e valores.",
       },
       {
+        title: "Serviços",
+        href: "/servicos",
+        description: "Soluções empresariais para transformar o seu negócio.",
+      },
+      {
         title: "Carreiras",
-        href: "https://group-palin-martins.vercel.app/carreiras",
+        href: "/carreiras",
         description: "Junte-se à nossa equipe e cresça com a gente.",
       },
       {
         title: "Contato",
-        href: "https://group-palin-martins.vercel.app/contato",
+        href: "/contato",
         description: "Entre em contato conosco para mais informações.",
       },
       {
@@ -38,34 +42,8 @@ const components = [
       },
     ],
   },
-
-  // Menu Serviços
-  {
-    section: "Serviços",
-    items: [
-      {
-        title: "Consultoria empresarial",
-        href: "/consultoria-empresarial",
-        description: "Soluções empresariais para transformar o seu negócio.",
-      },
-      {
-        title: "Planejamento estratégico",
-        href: "/planejamento-estrategico",
-        description: "Estratégias para o crescimento e sucesso da sua empresa.",
-      },
-      {
-        title: "Gestão de processos",
-        href: "/gestao-de-processos",
-        description: "Otimize e gerencie os processos do seu negócio com eficiência.",
-      },
-      {
-        title: "Tecnologia e inovação",
-        href: "/tecnologia-e-inovacao",
-        description: "Inove e se destaque no mercado com soluções tecnológicas.",
-      },
-    ],
-  },
 ]
+
 export function NavigationHeader() {
   return (
     <NavigationMenu>

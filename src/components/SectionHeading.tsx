@@ -12,7 +12,7 @@ const headingVariants = tv({
     wrap: 'flex flex-col gap-2',
     title: 'leading-tight tracking-tight font-medium text-palin',
     subtitle: 'leading-tight tracking-tighter font-semibold text-primary',
-    description: ' leading-tight text-muted-foreground',
+    description: 'leading-tight text-muted-foreground',
   },
   variants: {
     size: {
