@@ -34,7 +34,7 @@ export const careersPositionsData = [
     category: "Marketing",
     jobs: [
       {
-        title: "No lugar da Raissa",
+        title: "No lugar da Raissa ;D",
         location: "Lorem...",
         button: {
           href: '#',
