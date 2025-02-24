@@ -7,11 +7,12 @@ const contactVariants = tv({
     backgroundImage: '-z-10 absolute inset-0 w-full h-full object-cover opacity-25',
     contentWrapper: 'max-w-2xl mx-auto text-center mt-16',
     cardContainer: 'max-w-lg lg:max-w-5xl mx-auto grid lg:grid-cols-2 gap-10 mt-24',
-    card: 'group flex flex-col items-start gap-6 p-8 rounded-2xl shadow-2xl transition-shadow',
-    cardIcon: '-mb-2 text-3xl',
+    card: 'group flex flex-col items-start gap-6 p-8 rounded-2xl shadow-2xl border border-zinc-100 shadow-zinc-100 hover:shadow-zinc-200 bg-white transition-shadow',
+    cardIcon: 'text-3xl text-palin/50',
     subtitleWrapper: 'max-w-2xl mx-auto text-center mt-24',
     infoContainer: 'max-w-lg lg:max-w-7xl mx-auto grid lg:grid-cols-3 gap-8 mt-12 mb-24 xl:mb-32 text-center',
-    infoCard: 'flex flex-col items-center gap-4 p-6 rounded-xl shadow-xl',
+    infoCard: 'flex flex-col items-center gap-4 p-6 rounded-xl shadow-xl border border-zinc-100 shadow-zinc-50 bg-white',
+    infoTitle: 'text-lg leading-tight text-muted-foreground font-medium',
   }
 })
 
@@ -37,7 +38,7 @@ export const Contact = () => {
       </div>
       {/* contactSubitleData */}
       <div className={cV.subtitleWrapper()}>
-        <SectionHeading {...contactSubitleData} />
+        <p className={cV.infoTitle()}>{contactSubitleData.title}</p>
       </div>
       {/* contactInfoData */}
       <div className={cV.infoContainer()}>

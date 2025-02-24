@@ -4,32 +4,27 @@ interface Props {
   title?: string
   subtitle?: string
   description?: string
-  size?: 'xs' | 'sm' | 'md'
+  size?: 'sm' | 'md'
 }
 
 const headingVariants = tv({
   slots: {
     wrap: 'flex flex-col gap-2',
-    title: 'tracking-tight font-medium text-palin',
-    subtitle: 'leading-tight tracking-tighter text-primary',
-    description: ' tracking-normal font-light text-foreground',
+    title: 'leading-tight tracking-tight font-medium text-palin',
+    subtitle: 'leading-tight tracking-tighter font-semibold text-primary',
+    description: ' leading-tight text-muted-foreground',
   },
   variants: {
     size: {
-      xs: {
-        title: 'text-base md:text-lg',
-        subtitle: 'text-lg md:text-xl font-medium',
+      sm: {
+        title: 'text-lg',
+        subtitle: 'text-xl md:text-2xl',
         description: 'text-base',
       },
-      sm: {
-        title: 'text-lg md:text-xl',
-        subtitle: 'text-xl md:text-2xl font-semibold',
-        description: 'text-lg',
-      },
       md: {
-        title: 'text-xl md:text-2xl',
-        subtitle: 'text-2xl md:text-4xl font-bold',
-        description: 'text-xl',
+        title: 'text-xl',
+        subtitle: 'text-3xl md:text-4xl',
+        description: 'text-lg',
       },
     },
   },

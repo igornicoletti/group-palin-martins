@@ -7,12 +7,12 @@ interface Props {
 }
 
 const buttonVariants = tv({
-  base: 'mt-auto cursor-pointer rounded-full text-base text-center font-medium transition-colors',
+  base: 'w-full md:w-auto mt-auto cursor-pointer rounded-full text-sm text-center font-semibold transition-colors',
   variants: {
     color: {
-      default: 'w-full text-foreground hover:text-palin ',
-      primary: 'px-5 py-3 text-popover bg-palin',
-      secondary: 'px-5 py-3 text-palin border border-border',
+      default: 'w-full md:w-full text-muted-foreground hover:text-foreground',
+      primary: 'px-5 py-2.5 text-popover bg-palin',
+      secondary: 'px-5 py-2.5 border border-border text-muted-foreground hover:text-palin hover:border-palin',
     },
   },
   defaultVariants: {

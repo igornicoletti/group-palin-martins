@@ -1,3 +1,4 @@
 export { Careers } from './Careers'
 export { Contact } from './Contact'
 export { Footer } from './Footer'
+export { Header } from './Header'

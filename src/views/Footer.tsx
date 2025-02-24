@@ -6,15 +6,15 @@ const footerVariants = tv({
   slots: {
     base: 'bg-primary-foreground',
     wrapp: 'w-full max-w-7xl mx-auto pt-24 xl:pt-32',
-    gridContainer: 'grid grid-cols-2 lg:grid-cols-4 gap-6',
+    gridContainer: 'grid grid-cols-2 lg:grid-cols-4 gap-16 lg:gap-8',
     logoContainer: 'col-span-1',
     logo: 'h-16 w-auto flex-shrink-0',
     linksContainer: 'col-span-3 grid grid-cols-2 lg:grid-cols-4 gap-x-2 gap-y-6 lg:gap-x-6',
     column: 'space-y-4',
-    columnTitle: 'text-primary font-medium',
+    columnTitle: 'text-muted-foreground font-medium',
     linkList: 'space-y-2',
     link: 'text-muted-foreground font-normal transition-colors',
-    copyright: 'pt-16 pb-8',
+    copyright: 'pt-16 pb-8 text-muted-foreground',
   }
 })
 

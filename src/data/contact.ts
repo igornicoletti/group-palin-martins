@@ -7,8 +7,7 @@ export const contactTitleData = {
 }
 
 export const contactSubitleData = {
-  subtitle: 'Mais informações',
-  size: 'xs' as const,
+  title: 'Mais informações',
 }
 
 export const contactCardData = [
@@ -43,7 +42,7 @@ export const contactInfoData = [
     id: 'visit',
     title: 'Faça-nos uma visita',
     description: 'Visite nosso escritório e conheça nossa equipe de especialistas prontos para atender suas necessidades.',
-    size: 'xs' as const,
+    size: 'sm' as const,
     button: {
       href: '#',
       action: 'Saiba mais',
@@ -54,7 +53,7 @@ export const contactInfoData = [
     id: 'careers',
     title: 'Carreiras na Palin&Martins',
     description: 'Junte-se à nossa equipe! Estamos sempre em busca de talentos que compartilhem da nossa visão.',
-    size: 'xs' as const,
+    size: 'sm' as const,
     button: {
       href: '/vagas',
       action: 'Confira as vagas',
@@ -65,7 +64,7 @@ export const contactInfoData = [
     id: 'services',
     title: 'Nossos Serviços',
     description: 'Oferecemos soluções personalizadas para o seu negócio, focando em crescimento e inovação.',
-    size: 'xs' as const,
+    size: 'sm' as const,
     button: {
       href: '#',
       action: 'Saiba mais',
