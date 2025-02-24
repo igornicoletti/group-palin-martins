@@ -43,7 +43,7 @@ export const Careers = () => {
               onClick={() => setSelectedFilter(filter)}
               className={`px-5 py-2.5 cursor-pointer rounded-full text-sm text-center ${selectedFilter === filter
                 ? "text-palin font-semibold uppercase"
-                : "text-muted-foreground uppercase font-normal"}`}>
+                : "text-muted-foreground  uppercase font-medium"}`}>
               {filter}
             </button>
           ))}
@@ -55,9 +55,9 @@ export const Careers = () => {
             <div className='divide-y divide-y-border'>
               {category.jobs.map((job) => (
                 <div key={job.title} className="flex justify-between items-center  pb-4 py-4">
-                  <div className='space-y-2'>
+                  <div className='space-y-1'>
                     <h3 className="text-palin text-base font-medium">{job.title}</h3>
-                    <p className="text-muted-foreground text-sm">{job.location}</p>
+                    <p className="text-muted-foreground ">{job.location}</p>
                   </div>
                   <ButtonAction {...job.button} />
                 </div>
