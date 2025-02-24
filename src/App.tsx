@@ -1,4 +1,4 @@
-import { Careers, Contact, Footer, Header } from './views'
+import { Careers, Contact, Footer, Header, Services } from '@/views'
 
 export const App = () => {
 
@@ -8,6 +8,7 @@ export const App = () => {
         <Header />
         <main className="flex-1">
           {/* <Outlet /> */}
+          <Services />
           <Careers />
           <Contact />
         </main>

@@ -2,7 +2,7 @@ export const careersTitleData = {
   id: 'careers',
   title: 'Posições abertas',
   subtitle: 'Junte-se à nossa equipe',
-  description: 'O Grupo Palin&Martins valoriza a diversidade e a inclusão. Somos um empregador de igualdade de oportunidades e consideramos todos os candidatos qualificados, independentemente de raça, cor, nacionalidade, gênero, identidade de gênero, orientação sexual, religião, deficiência ou idade.'
+  description: 'Na Palin & Martins, acreditamos que o sucesso da empresa depende do desenvolvimento e bem-estar de nossos colaboradores. Promovemos um ambiente de trabalho colaborativo, inovador e inclusivo, onde as ideias são valorizadas e a dedicação é reconhecida. Oferecemos oportunidades de crescimento, treinamentos constantes e benefícios que equilibram a vida profissional e pessoal. Junte-se a nós e faça parte de uma empresa que investe no seu potencial e no seu futuro.'
 }
 
 export const careersPositionsData = [
