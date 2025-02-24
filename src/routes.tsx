@@ -4,7 +4,7 @@ import { Careers, Contact } from './views'
 
 export const router = createBrowserRouter([
   {
-    path: "https://group-palin-martins.vercel.app/",
+    path: "/",
     element: <App />,
     children: [
       { path: "https://group-palin-martins.vercel.app/contato", element: <Contact /> },

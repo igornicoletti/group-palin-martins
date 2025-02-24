@@ -43,7 +43,7 @@ export const Careers = () => {
               onClick={() => setSelectedFilter(filter)}
               className={`px-5 py-2.5 cursor-pointer rounded-full text-sm text-center ${selectedFilter === filter
                 ? "text-palin font-semibold uppercase"
-                : "text-muted-foreground font-normal"}`}>
+                : "text-muted-foreground uppercase font-normal"}`}>
               {filter}
             </button>
           ))}

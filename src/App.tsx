@@ -1,5 +1,4 @@
-import { Outlet } from 'react-router'
-import { Footer, Header } from './views'
+import { Careers, Contact, Footer, Header } from './views'
 
 export const App = () => {
 
@@ -8,7 +7,9 @@ export const App = () => {
       <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-1">
-          <Outlet />
+          {/* <Outlet /> */}
+          <Careers />
+          <Contact />
         </main>
         <Footer />
       </div>
