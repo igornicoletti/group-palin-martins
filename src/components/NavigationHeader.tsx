@@ -23,12 +23,12 @@ const components = [
       },
       {
         title: "Carreiras",
-        href: "/carreiras",
+        href: "https://group-palin-martins.vercel.app/carreiras",
         description: "Junte-se à nossa equipe e cresça com a gente.",
       },
       {
         title: "Contato",
-        href: "/contato",
+        href: "https://group-palin-martins.vercel.app/contato",
         description: "Entre em contato conosco para mais informações.",
       },
       {
