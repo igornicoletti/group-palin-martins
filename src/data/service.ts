@@ -2,8 +2,10 @@ import { ChartBar, CurrencyCircleDollar, Receipt, Scales, ShieldCheck } from '@p
 
 
 export const servicesTitleData = {
-  subtitle: 'Soluções Estratégicas em Tributação e Compliance',
-  description: 'Cada segmento tem desafios e necessidades específicas. Por isso, oferecemos consultoria especializada e soluções tributárias personalizadas para otimizar sua gestão fiscal e impulsionar o crescimento do seu negócio.',
+  title
+    : 'Soluções Estratégicas em Tributação e Compliance',
+  size: 'lg' as const,
+  /* description: 'Cada segmento tem desafios e necessidades específicas. Por isso, oferecemos consultoria especializada e soluções tributárias personalizadas para otimizar sua gestão fiscal e impulsionar o crescimento do seu negócio.', */
 }
 
 export const serviceData = [

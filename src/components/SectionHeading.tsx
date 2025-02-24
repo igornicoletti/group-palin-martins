@@ -4,7 +4,7 @@ interface Props {
   title?: string
   subtitle?: string
   description?: string
-  size?: 'sm' | 'md'
+  size?: 'sm' | 'md' | 'lg'
 }
 
 const headingVariants = tv({
@@ -24,6 +24,11 @@ const headingVariants = tv({
       md: {
         title: 'text-xl',
         subtitle: 'text-3xl md:text-4xl',
+        description: 'text-lg',
+      },
+      lg: {
+        title: 'text-2xl',
+        subtitle: 'text-4xl md:text-6xl',
         description: 'text-lg',
       },
     },

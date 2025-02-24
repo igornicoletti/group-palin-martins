@@ -10,71 +10,42 @@ export const careersPositionsData = [
     category: "Tecnologia",
     jobs: [
       {
-        title: "Representante Desenvolvimento Negócios",
-        location: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        title: "Estágio T.I - Suporte",
+        location: "Auxilia na manutenção de sistemas, suporte técnico e atendimento a usuários.",
         button: {
-          href: '#',
-          action: 'Candidatar-se',
-          colorVariant: 'secondary' as const,
-        },
-      },
-      {
-        title: "Geração de Demanda Digital",
-        location: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
-        button: {
-          href: '#',
-          action: 'Candidatar-se',
-          colorVariant: 'secondary' as const,
-        },
-      },
-      {
-        title: "Engenheiro de Sucesso do Desenvolvedor",
-        location: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
-        button: {
-          href: '#',
+          href: 'https://forms.clickup.com/9007042349/f/8cdt3td-14713/I73UP1X2BFZUHZMW6C',
           action: 'Candidatar-se',
           colorVariant: 'secondary' as const,
         },
       },
     ],
-
   },
   {
-    category: "Marketing",
+    category: "Comercial",
     jobs: [
       {
-        title: "No lugar da Raissa ;D",
-        location: "Lorem...",
+        title: "Estágio em Pré-Vendas",
+        location: "Atua na prospecção de clientes, qualificação de leads e suporte à equipe comercial.",
         button: {
-          href: '#',
-          action: 'Candidatar-se',
-          colorVariant: 'secondary' as const,
-        },
-      },
-      {
-        title: "Ota para o lugar da Raissa ;D",
-        location: "Lorem...",
-        button: {
-          href: '#',
-          action: 'Candidatar-se',
-          colorVariant: 'secondary' as const,
-        },
-      },
-      {
-        title: "Mais ota para ocupar o lugar da Raissa ;D",
-        location: "Lorem...",
-        button: {
-          href: '#',
+          href: 'https://forms.clickup.com/9007042349/f/8cdt3td-14713/I73UP1X2BFZUHZMW6C',
           action: 'Candidatar-se',
           colorVariant: 'secondary' as const,
         },
       },
     ],
   },
-];
-
-
-/*
- description='Construímos um futuro mais seguro e sustentável, oferecendo soluções eficientes que impulsionam negócios. Junte-se à nossa equipe em rápida expansão que prioriza a transparência, ética e excelência.'
-description='A Palin & Martins valoriza a diversidade e a inclusão. Somos um empregador de igualdade de oportunidades e consideramos todos os candidatos qualificados, independentemente de raça, cor, nacionalidade, gênero, identidade de gênero, orientação sexual, religião, deficiência ou idade.' />
-*/
+  {
+    category: "Financeiro",
+    jobs: [
+      {
+        title: "Assistente Fiscal",
+        location: "Responsável pelo lançamento de notas fiscais, apuração de impostos e cumprimento de obrigações tributárias.",
+        button: {
+          href: 'https://forms.clickup.com/9007042349/f/8cdt3td-14713/I73UP1X2BFZUHZMW6C',
+          action: 'Candidatar-se',
+          colorVariant: 'secondary' as const,
+        },
+      },
+    ],
+  },
+]

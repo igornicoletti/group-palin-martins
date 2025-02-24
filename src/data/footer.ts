@@ -16,10 +16,11 @@ export const footerData = {
     {
       title: 'Serviços',
       links: [
-        { label: 'Consultoria empresarial', href: '/servicos' },
-        { label: 'Planejamento estratégico', href: '/servicos' },
-        { label: 'Gestão de processos', href: '/servicos' },
-        { label: 'Tecnologia e inovação', href: '/servicos' },
+        { label: 'Consultoria Tributária', href: '/servicos' },
+        { label: 'Recuperação de Tributos Federais', href: '/servicos' },
+        { label: 'Recuperação de Créditos de ICMS', href: '/servicos' },
+        { label: 'Compliance Tributário', href: '/servicos' },
+        { label: 'Serviços Jurídicos', href: '/servicos' },
       ],
     },
     {

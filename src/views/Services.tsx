@@ -6,13 +6,13 @@ import { tv } from 'tailwind-variants'
 
 const servicesVariants = tv({
   slots: {
-    contentWrapper: 'max-w-6xl mx-auto text-left mt-16',
-    cardContainer: 'max-w-6xl mx-auto grid lg:grid-cols-1 gap-10 mt-24 mb-24 xl:mb-32',
+    contentWrapper: 'max-w-xl mr-auto text-left mt-16',
+    cardContainer: 'max-w-7xl mx-auto grid lg:grid-cols-1 gap-10 mt-12 mb-24 xl:mb-32',
     card: 'group flex flex-col items-start gap-6 p-8 rounded-2xl shadow-lg border border-zinc-100 shadow-zinc-50 bg-white transition-shadow',
     cardIcon: 'text-3xl text-palin/50',
     subtitleWrapper: 'max-w-2xl mx-auto text-center mt-24',
     infoContainer: 'max-w-lg lg:max-w-7xl mx-auto grid lg:grid-cols-3 gap-8 mt-12 mb-24 xl:mb-32 text-center',
-    infoCard: 'md:basis-1/2 xl:basis-1/3 flex flex-col items-center gap-4 p-6 rounded-xl shadow-xl border border-zinc-100 shadow-zinc-50 bg-white',
+    infoCard: ' flex flex-col items-center text-center gap-4 px-6 py-8 rounded-xl border border-zinc-100',
     infoTitle: 'leading-tight text-muted-foreground font-medium',
   }
 })
@@ -28,11 +28,13 @@ export const Services = () => {
 
       <div >
         <Carousel className={sV.cardContainer()}>
-          <CarouselContent className='-ml-1'>
+          <CarouselContent className='-ml-4'>
             {serviceData.map(({ ...data }) => (
-              <CarouselItem key={data.id} className={sV.infoCard()}>
-                <data.icon className={sV.cardIcon()} weight='duotone' />
-                <SectionHeading {...data} />
+              <CarouselItem key={data.id} className={'md:basis-1/2 xl:basis-1/3'}>
+                <div className={sV.infoCard()}>
+                  <data.icon className={sV.cardIcon()} weight='duotone' />
+                  <SectionHeading {...data} />
+                </div>
               </CarouselItem>
             ))}
           </CarouselContent>
